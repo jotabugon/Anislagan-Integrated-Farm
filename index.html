@@ -9,7 +9,8 @@
     <title>Home</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-success">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a href="#" class="navbar-brand text-white">Anislagan Integrated Farm</a>
 
@@ -44,9 +45,61 @@
         </div>
     </nav>
     
+    <!-- Carousel slides -->
+    <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
 
+      <div class="carousel-inner">
+            <!-- first slide -->
+            <div class="carousel-item active" data-bs-interval="5000">
+               <img src="chickens.jpg" class="photos d-block w-100" alt="chickens">
+            </div>
+            <!-- second slide -->
+            <div class="carousel-item">
+                <img src="ducks.jpg" class="photos d-block w-100" alt="ducks">
+             </div>
+             <!-- third slide -->
+             <div class="carousel-item">
+                <img src="pigs.jpg" class="photos d-block w-100" alt="pigs">
+             </div>
+             <!-- fourth slide -->
+             <div class="carousel-item">
+                <img src="catfish.jpg" class="photos d-block w-100" alt="catfish">
+             </div>
+             <!-- fifth slide -->
+             <div class="carousel-item">
+                <img src="eggs.jpg" class="photos d-block w-100" alt="eggs">
+             </div>
 
+             <div class="slogan container text-white">
+                <h1>Anislagan Integrated Farm</h1>
+                <h6>We supply chicken meat (both native and heritage chickens), catfish, pork, table eggs, and balut.</h6>
+                <a href="#" class="cust btn btn-lg text-white"><h5>Become a favored customer!</h5></a>
+              </div>
+              
+      </div>
 
+      <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Newsletter Section-->
+    <section class="Newsletter text-white p-5">
+        <div class="container">
+         <div class="d-md-flex justify-content-between align-items-center">
+           <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+           <div class="news-input input-group">
+             <input type="email" class="form-control" placeholder="Enter your Email"/>
+               <button class="btn btn-dark btn-lg" type="button">Submit</button>
+           </div>
+         </div>
+        </div>
+     </section>
 
 </body>
 </html>
