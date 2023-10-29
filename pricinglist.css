@@ -15,20 +15,3 @@
     padding-bottom: 50px;
     text-shadow: 2px 2px 4px black;
 }
-
-.photos{
-    height: 680px;
-    object-fit: cover;
-}
-
-.cust{
-    background-color: #63C132;
-}
-
-@media (min-width: 768px){
-    .news-input{width:50%;}
-}
-
-.newsletter{
-    background-color: #855044;
-}
