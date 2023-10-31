@@ -1,3 +1,4 @@
+/*-- Navigation Bar --*/
 .navbar{
     background-color: #358600;
 }
@@ -7,6 +8,7 @@
     color: black !important;
 }
 
+/*-- Carousel Slogan --*/
 .slogan{
     position: absolute;
     bottom: 0;
@@ -16,15 +18,18 @@
     text-shadow: 2px 2px 4px black;
 }
 
+/*-- Carousel Photos --*/
 .photos{
     height: 680px;
     object-fit: cover;
 }
 
+/*-- Carousel Button --*/
 .cust{
     background-color: #63C132;
 }
 
+/*-- Newsletter Section --*/
 @media (min-width: 768px){
     .news-input{width:50%;}
 }
@@ -33,6 +38,7 @@
     background-color: #855044;
 }
 
+/*-- Other Body Content --*/
 .care{
     background-size: cover;
     background-position: bottom;

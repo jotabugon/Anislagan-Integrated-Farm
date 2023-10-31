@@ -1,3 +1,4 @@
+/*-- Navigation Bar --*/
 .navbar{
     background-color: #358600;
 }
@@ -7,15 +8,7 @@
     color: black !important;
 }
 
-.slogan{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
-    text-shadow: 2px 2px 4px black;
-}
-
+/*-- Fixed Background Image --*/
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("Images/bg-image.jpg");
@@ -24,6 +17,7 @@ body{
     background-attachment: fixed;
 }
 
+/*-- Registration Form --*/
 .box-area{
     width: 500px;
 }
