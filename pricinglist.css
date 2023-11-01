@@ -1,3 +1,8 @@
+div{
+    display: block;
+}
+
+/*-- Navigation Bar --*/
 .navbar{
     background-color: #358600;
 }
@@ -7,11 +12,23 @@
     color: black !important;
 }
 
-.slogan{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
-    text-shadow: 2px 2px 4px black;
+/*-- Products --*/
+.custom-bg{
+    height: 320px;
+    background: #7dbe7e98;
+    border-radius: 12px;
+}
+
+.custom-footer{
+    background-color: transparent;
+    border: none;
+}
+
+/*-- Newsletter Section --*/
+.newsletter{
+    background-color: #855044;
+}
+
+@media (min-width: 768px){
+    .news-input{width:50%;}
 }
