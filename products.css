@@ -12,18 +12,13 @@
 .product{
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 40vh;
     position: relative;
     text-justify: auto;
 }
 
 .banner{
-    position: relative;
-    padding-top: 166px;
-    padding-left: 200px;
-    padding-bottom: 169px;
     background-color: rgba(0, 0, 0, 0.4);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /*-- Product Content --*/
