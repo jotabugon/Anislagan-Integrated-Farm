@@ -8,8 +8,8 @@
     color: black !important;
 }
 
-/*-- Our Products --*/
-.product{
+/*-- Discounts --*/
+.discount{
     background-size: cover;
     background-position: center;
     min-height: 40vh;
@@ -22,7 +22,7 @@
 }
 
 /*-- Product Content --*/
-.product .text-inform{
+.discount .text-inform{
     padding: 105px;
 }
 
