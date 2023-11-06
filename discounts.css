@@ -23,7 +23,7 @@
 
 /*-- Product Content --*/
 .discount .text-inform{
-    padding: 105px;
+    padding: 80px;
 }
 
 .text-inform h5{
@@ -39,10 +39,3 @@
     .news-input{width:50%;}
 }
 
-@media (max-width: 768px){
-    section.product{text-align: center;}
-}
-
-@media (max-width: 320px){
-    section.product{text-align: center;}
-}
